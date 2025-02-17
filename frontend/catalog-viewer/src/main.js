@@ -19,3 +19,8 @@ app.mount('#app')
 
 // # 前端启动（在frontend/catalog-viewer目录下）
 // npm run dev
+//# 安装依赖
+// npm install
+//
+// # 启动开发服务器
+// npm run dev

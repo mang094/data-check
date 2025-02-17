@@ -34,6 +34,52 @@
           <el-descriptions-item label="目录层级">{{ selectedNode.catalogLevel }}</el-descriptions-item>
           <el-descriptions-item label="是否末级">{{ selectedNode.catalogIsLast ? '是' : '否' }}</el-descriptions-item>
           <el-descriptions-item label="父级目录">{{ selectedNode.parentCatalogName || '无' }}</el-descriptions-item>
+          
+          <template v-if="selectedNode.firstCatalogName">
+            <el-descriptions-item label="一级目录">
+              {{ selectedNode.firstCatalogName }} (ID: {{ selectedNode.firstCatalogId }})
+            </el-descriptions-item>
+          </template>
+          <template v-if="selectedNode.secondCatalogName">
+            <el-descriptions-item label="二级目录">
+              {{ selectedNode.secondCatalogName }} (ID: {{ selectedNode.secondCatalogId }})
+            </el-descriptions-item>
+          </template>
+          <template v-if="selectedNode.thirdCatalogName">
+            <el-descriptions-item label="三级目录">
+              {{ selectedNode.thirdCatalogName }} (ID: {{ selectedNode.thirdCatalogId }})
+            </el-descriptions-item>
+          </template>
+          <template v-if="selectedNode.fourthCatalogName">
+            <el-descriptions-item label="四级目录">
+              {{ selectedNode.fourthCatalogName }} (ID: {{ selectedNode.fourthCatalogId }})
+            </el-descriptions-item>
+          </template>
+          <template v-if="selectedNode.fifthCatalogName">
+            <el-descriptions-item label="五级目录">
+              {{ selectedNode.fifthCatalogName }} (ID: {{ selectedNode.fifthCatalogId }})
+            </el-descriptions-item>
+          </template>
+          <template v-if="selectedNode.sixthCatalogName">
+            <el-descriptions-item label="六级目录">
+              {{ selectedNode.sixthCatalogName }} (ID: {{ selectedNode.sixthCatalogId }})
+            </el-descriptions-item>
+          </template>
+          <template v-if="selectedNode.seventhCatalogName">
+            <el-descriptions-item label="七级目录">
+              {{ selectedNode.seventhCatalogName }} (ID: {{ selectedNode.seventhCatalogId }})
+            </el-descriptions-item>
+          </template>
+          <template v-if="selectedNode.eighthCatalogName">
+            <el-descriptions-item label="八级目录">
+              {{ selectedNode.eighthCatalogName }} (ID: {{ selectedNode.eighthCatalogId }})
+            </el-descriptions-item>
+          </template>
+          <template v-if="selectedNode.ninthCatalogName">
+            <el-descriptions-item label="九级目录">
+              {{ selectedNode.ninthCatalogName }} (ID: {{ selectedNode.ninthCatalogId }})
+            </el-descriptions-item>
+          </template>
         </el-descriptions>
       </div>
     </el-drawer>
