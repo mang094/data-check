@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terex Parts Book Tree</title>
+    <script src="//unpkg.com/vue@3.2.47/dist/vue.global.js"></script>
+    <script src="//unpkg.com/element-plus@2.2.32/dist/index.full.js"></script>
+    <link rel="stylesheet" href="//unpkg.com/element-plus@2.2.32/dist/index.css">
+    <style>
+        #app {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1200px;
+        }
+        .tree-container {
+            margin-top: 20px;
+            border: 1px solid #e4e7ed;
+            border-radius: 4px;
+            padding: 20px;
+        }
+        .custom-tree-node {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            padding: 8px 0;
+            cursor: pointer;
+        }
+        .root-node {
+            font-weight: bold;
+            font-size: 16px;
+            color: #67c23a;
+        }
+        .child-node {
+            margin-left: 8px;
+        }
+        .node-count {
+            margin-left: 8px;
+            color: #909399;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h2>Terex Parts Book Tree Structure</h2>
+        
+        <div class="tree-container">
+            <el-tree
+                ref="tree"
+                :data="processedTreeData"
+                :props="defaultProps"
+                :highlight-current="true"
+                :default-expand-all="false"
+                node-key="id"
+                @node-click="handleNodeClick">
+                <template #default="{ node, data }">
+                    <div class="custom-tree-node" 
+                         :class="{'root-node': node.level === 1, 'child-node': node.level > 1}">
+                        <span>{{ data.name }}</span>
+                        <span v-if="data.children && data.children.length" class="node-count">
+                            ({{ data.children.length }})
+                        </span>
+                    </div>
+                </template>
+            </el-tree>
+        </div>
+    </div>
+
+    <script>
+        const { createApp, ref } = Vue;
+        const app = createApp({
+            data() {
+                return {
+                    processedTreeData: [],
+                    defaultProps: {
+                        children: 'children',
+                        label: 'name'
+                    }
+                }
+            },
+            methods: {
+                async loadData() {
+                    try {
+                        const response = await fetch('/api/tree');
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        const data = await response.json();
+                        console.log('Received data:', data);
+                        this.processData(data);
+                    } catch (error) {
+                        console.error('加载数据失败:', error);
+                        ElementPlus.ElMessage.error('加载数据失败: ' + error.message);
+                    }
+                },
+                processData(data) {
+                    console.log('Processing data:', data);
+                    const processNode = (node) => {
+                        // 如果节点是字符串，直接返回包含该字符串的对象
+                        if (typeof node === 'string') {
+                            return {
+                                id: node,
+                                name: node,
+                                children: []
+                            };
+                        }
+                        
+                        // 处理children数组
+                        let processedChildren = [];
+                        if (Array.isArray(node.children)) {
+                            processedChildren = node.children.map(child => processNode(child));
+                        }
+                        
+                        return {
+                            id: node.name,
+                            name: node.name,
+                            children: processedChildren
+                        };
+                    };
+                    
+                    this.processedTreeData = data.map(node => processNode(node));
+                    console.log('Processed tree data:', this.processedTreeData);
+                },
+                handleNodeClick(data, node) {
+                    console.log('Node clicked:', data);
+                    // 可以在这里添加点击节点后的处理逻辑
+                }
+            },
+            mounted() {
+                console.log('Component mounted');
+                this.loadData();
+            }
+        });
+
+        app.use(ElementPlus);
+        app.mount('#app');
+    </script>
+</body>
+</html>

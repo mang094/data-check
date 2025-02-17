@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54a7c367-d7fd-4782-ab7a-00d325f872e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/catalog-viewer/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/catalog-viewer/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/catalog-viewer/src/views/CatalogTree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/catalog-viewer/views/CatalogTree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flink-awesome/flink-data/src/main/java/com/hw/connectors/elasticsearch/ElasticsearchHttpSink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flink-awesome/flink-data/src/main/java/com/hw/data/job/FlinkMySQLToES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flink-awesome/flink-data/src/main/java/com/hw/data/job/MySQLCdc2MySQLJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flink-awesome/flink-data/src/main/java/com/hw/data/job/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compile.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/AllpartsbookApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/annotation/IDCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/annotation/Password.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/annotation/PhoneNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/annotation/impl/IdCardValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/annotation/impl/PasswordValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/annotation/impl/PhoneNumberValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/EmailContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/EsUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/OssConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/PatternCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/ResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/RestResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/constant/SpringSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/oss/AliOssCloudUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/oss/OssClientFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/redis/RedisConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/redis/RedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/redis/impl/RedisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/DeduplicationUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/DoubleUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/EsUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/ExcelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/IdCodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/ImageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/MyBeanUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/NumberUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/OkHttpUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/PasswordUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/SendMailUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/SpringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/UUIDUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/common/utils/VerifyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/interceptor/AjaxJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/interceptor/ControllerExceptionFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/interceptor/JacksonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/config/JacksonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/interceptor/LogRecordAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/mybatisPlus/MetaHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/mybatisPlus/MyBatisPlusPageConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/mybatisPlus/annotation/CreateBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/mybatisPlus/annotation/CreateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/mybatisPlus/annotation/SecretAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/mybatisPlus/annotation/UpdateBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/mybatisPlus/annotation/UpdateTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/mybatisPlus/sqlSessionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/redis/CustomKeyGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/redis/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/saToken/DataFilterTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/saToken/EasyAdminConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/saToken/EasyAdminSecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/saToken/SaTokenConfigure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/saToken/StpInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/saToken/UserLoginInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/config/swagger/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/OssController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/apb/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/apb/CatalogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/apb/InquiryProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/apb/NotLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/apb/PartsSkuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/apb/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/book/BookInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/cms/BlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/controller/tem/OtherImageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/bo/CatalogImageBo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/bo/InquiryTemplateBo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/apb/BackupKeyValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/apb/CatalogImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/apb/CatalogSkuImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/apb/InquiryProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/apb/InquiryUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/apb/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/apb/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/book/CenterOem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/book/CenterRelApb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/cms/Blog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/es/ApbCatalogImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/es/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/es/Catalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/es/CatalogImageAndFlight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/es/CatalogImageFlight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/es/PartsSku.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/origin/OcrImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/origin/PartsImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/origin/PartsImage02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/origin/TemReplenishImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dao/origin/TemSkuCatalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/PageSelectDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/CatalogBusinessDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/CatalogParentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/CatalogTypeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/EmailCodeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/InquiryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/InquiryProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/PartSkuPageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/PasswordForgetDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/SkuESDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/UpdatePasswordDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/UserAddDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/UserLoginDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/apb/UserUpdateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/book/ApbInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/book/BookQueryInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/cms/BlogDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/dto/es/SkuNoCatalogGroupDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/excel/PartsSkuExcel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/json/apb/Sku2ImageJSON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/json/origin/OcrPointJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/json/origin/OcrResultJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/BrandVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/CatalogIdVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/CatalogRouteInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/CatalogSkuImageVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/CatalogUnitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/CatalogVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/ImageFlightVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/PartsSkuDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/PartsSkuModelUnitVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/PartsSkuPageVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/PartsSkuVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/UnitCatalogSkuVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/UserAllInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/UserDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/apb/UserTokenVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/book/BookInfoTreeVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/book/BookTreeVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/book/ModelInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/book/OmeDetailInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/book/UnitInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/cms/BlogDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/cms/BlogVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/origin/OcrResultVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/entity/vo/origin/PartsImageVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/enums/CatalogTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/enums/ConditionTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/enums/HttpCommonEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/enums/HttpMethodEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/enums/ManufacturerTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/enums/SendCodeTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/enums/SequenceTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/enums/YesNoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/apb/BackupKeyValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/apb/CatalogSkuImageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/apb/InquiryProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/apb/InquiryUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/apb/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/apb/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/book/CenterOemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/book/CenterRelApbMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/cms/BlogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/mapper/origin/PartsImageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/BackupKeyValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/CatalogImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/CatalogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/CatalogSkuImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/InquiryProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/InquiryUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/PartsSkuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/SendEmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/apb/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/book/CenterOemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/book/CenterRelApbService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/cms/BlogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/BackupKeyValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/BrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/CatalogImageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/CatalogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/CatalogSkuImageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/InquiryProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/InquiryUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/PartsSkuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/SendEmailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/apb/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/book/CenterOemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/book/CenterRelApbServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/cms/BlogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/impl/origin/PartsImageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/allpartsbook/service/origin/PartsImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-apb_prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/apb/BackupKeyValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/apb/InquiryProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/apb/InquiryUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/apb/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/apb/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/book/CenterOemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/book/CenterRelApbMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/origin/PartsImageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/email/forget_password_code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/email/inquiry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/email/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/email/register_code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/email/update_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/email_code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/email_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/email_register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/template/inquiry_bak.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/example/allpartsbook/haojiankai/BookTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/example/allpartsbook/sql/SqlGenerator.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;H20250603&quot;,
+      &quot;fullname&quot;: &quot;张衡&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;http://192.168.16.104/java-world-class/allpartbook.git&quot;,
+    &quot;second&quot;: &quot;81911754-aef2-47cf-bfd7-c9f5a51e54c5&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\maven\apache-maven-3.9.6-bin" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.9.6-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2t9UAgszA7J6ySGEmxPAnUz31Ec" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.terex-tree [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CatalogApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IdeaProjects/data-check",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "ts.external.directory.path": "D:\\application\\IntelliJ IDEA 2023.3.8\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\data-check\frontend\catalog-viewer\src\views" />
+      <recent name="D:\IdeaProjects\data-check\frontend\catalog-viewer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CatalogApplication">
+    <configuration name="CatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="terex-tree" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.catalog.CatalogApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.catalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/catalog-viewer/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CatalogApplication" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54a7c367-d7fd-4782-ab7a-00d325f872e8" name="Changes" comment="" />
+      <created>1739763641544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739763641544</updated>
+      <workItem from="1739763642651" duration="3461000" />
+      <workItem from="1739771489739" duration="78000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
