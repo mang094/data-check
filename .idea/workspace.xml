@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a7c367-d7fd-4782-ab7a-00d325f872e8" name="Changes" comment="">
+    <list default="true" id="54a7c367-d7fd-4782-ab7a-00d325f872e8" name="Changes" comment="up">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/service/DataMigrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/service/impl/DataMigrationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/utils/SnowflakeIdGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/catalog-viewer/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/catalog-viewer/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/catalog-viewer/src/views/CatalogTree.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/catalog-viewer/src/views/CatalogTree.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/controller/CatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/entity/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/catalog/service/CatalogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/service/CatalogService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/catalog/service/impl/CatalogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/catalog/service/impl/CatalogServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +70,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.CatalogApplication.executor": "Debug",
+    "Spring Boot.TerexTreeApplication.executor": "Debug",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IdeaProjects/data-check/pom.xml",
+    "last_opened_file_path": "F:/hs/data/py/新建文件夹/hs-datax",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,7 +82,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "ts.external.directory.path": "D:\\application\\IntelliJ IDEA 2023.3.8\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -86,13 +93,26 @@
       <recent name="D:\IdeaProjects\data-check\frontend\catalog-viewer" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CatalogApplication">
+  <component name="RunManager" selected="Spring Boot.TerexTreeApplication">
     <configuration name="CatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="terex-tree" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.catalog.CatalogApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.catalog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TerexTreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="terex-tree" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.terextree.TerexTreeApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.terextree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TerexTreeApplication" />
         <item itemvalue="Spring Boot.CatalogApplication" />
         <item itemvalue="npm.dev" />
       </list>
@@ -127,8 +148,18 @@
       <updated>1739763641544</updated>
       <workItem from="1739763642651" duration="3461000" />
       <workItem from="1739771489739" duration="78000" />
-      <workItem from="1739772149737" duration="2025000" />
+      <workItem from="1739772149737" duration="10844000" />
+      <workItem from="1740377551785" duration="3916000" />
     </task>
+    <task id="LOCAL-00001" summary="up">
+      <option name="closed" value="true" />
+      <created>1739775553975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739775553975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
 </project>
